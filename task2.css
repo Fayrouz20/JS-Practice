@@ -1,0 +1,79 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  
+  body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background: #00ffff1f;;
+  }
+
+  #container{
+    width: 500px;
+    background-color: #fff;
+    border: 1px solid #fff;
+    box-shadow: 2px 2px 9px;
+    height: 450px;
+    padding: 40px;
+  }
+  #title{
+    font-size: 0.9rem;
+  }
+.img{
+  margin-bottom: 3%;
+}
+img{
+    border: 1px solid;
+    border-radius: 50%;
+    margin: 10px 0;
+    position: relative;
+    width: 100px;
+    box-shadow: 5px 0 0px 0px cyan;
+  }
+.main-content .quote{
+  background-color: cyan;
+    border-radius: 50%;
+    padding: 7px;
+    color: #fff;
+    position: absolute;
+    left: 47%;
+    top: 25%;
+}
+#author{
+  font-family: math;
+  text-transform: uppercase;
+}
+#job{
+  color: cyan;
+  margin-bottom: 15px;
+}
+
+#view{
+  font-family: cursive;
+  margin-bottom: 6px;
+}
+
+#sign{
+  color: cyan;
+  margin-bottom: 5px;
+}
+button{
+  padding: 9px;
+  border-radius: 5px;
+  background-color: #fff;
+  border: 1px solid cyan;
+  color: cyan;
+}
+
+button:hover{
+  background-color: cyan;
+  color: #000;
+}

@@ -1,0 +1,82 @@
+
+:root{
+    --main-color : #ef6c00f7;
+}
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: math;
+}
+body{
+    background-color: #5f9ea014;
+}
+header{
+  width: 100%;
+  text-align: center;
+  padding: 25px;
+}
+header h1{
+    font-family: cursive;
+    margin-bottom: 15px;
+}
+header h1::after{
+   content: ' ';
+    width: 62px;
+    padding: 2px;
+    position: absolute;
+    top: 12%;
+    left: 46%;
+    background-color: var(--main-color);
+}
+header .btn{
+    margin-top: 35px;
+    color: var(--main-color);
+
+}
+header .btn a{
+
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+
+.menu {
+    width: 450px;
+    margin: 0 9%;
+  /*  display: flex;*/
+    padding: 15px;
+  /*  justify-content: space-between;*/
+  display: grid;
+  grid-template-columns: auto  auto;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.menu img{
+    width: 163px;
+    height: 120px;
+    border: 1px solid var(--main-color);
+    border-radius: 5px;
+}
+.menu .description{
+    margin-left: 10px;
+}
+.menu .description .title{
+    display: flex;
+    justify-content: space-between;
+}
+.menu .description .title span{
+    color: var(--main-color);
+}
+.menu .lign{
+    padding: 1px;
+    background-color: var(--main-color);
+}
+.menu .content{
+    padding: 10px;
+}

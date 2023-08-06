@@ -1,0 +1,118 @@
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: math;
+}
+#header{
+   min-height: 100vh;
+   width: 100%;
+}
+#navbar{
+  width: 100%;
+}
+.center{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 1px 3px 0 0 red;
+}
+
+.center img{
+    width: 75px;
+}
+.center .toggle-bar{
+   border: none;
+   background-color: #fff;
+   color: #000;
+   margin-right: 15px;
+   font-size: 1.2rem;
+}
+.center .toggle-bar:hover{
+    color: rgb(112, 233, 112);
+}
+#navbar .menu{
+    width: 100%;
+    position: fixed;
+    height: 150px;
+    left: 0;
+    background-color: #fff;
+    transform: translate(-100%);
+    overflow: hidden;
+    transition: .5s;
+}
+#navbar .menu.show-menu{
+    transform: translate(0);
+}
+#navbar .menu ul{
+  list-style: none;
+  
+}
+#navbar .menu ul li{
+    padding: 10px;
+}
+#navbar .menu ul li:hover{
+    background-color:rgb(112, 233, 112); 
+}
+#header .container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.container .main-img{
+    width: 100%;
+    height: 100%;
+}
+.container .main-img img{
+    width: 100%;
+    height: 100%;
+}
+.container .content{
+    position: absolute;
+    width: 300px;
+    text-align: center;
+    color: #fff;
+}
+.container .content h1{
+    text-transform: uppercase;
+    margin-bottom: 10px;
+
+}
+.container .content button{
+    background-color: inherit;
+    padding: 10px;
+    text-transform: uppercase;
+    border: 1px solid #fff;
+    outline: none;
+    color: #fff;
+    width: 140px;
+    margin-top: 10px;
+}
+.main-section{
+    width: 100%;
+    height: 350px;
+    text-align: center;
+    margin-top: -6px;
+}
+
+.main-section .title{
+    text-transform: uppercase;
+    width: 100%;
+    height: 100%;
+    background-color: #00ffd926;
+}
+.main-section .title.serices{
+    text-transform: uppercase;
+    width: 100%;
+    height: 100%;
+    background-color: #ffff;
+}
+
+span{
+    color: #00ffd9d9;
+}

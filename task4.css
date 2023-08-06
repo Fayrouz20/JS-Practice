@@ -1,0 +1,76 @@
+
+
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: math;
+  }
+  
+  body{
+    background-image: url('../colory/4.png') ;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+  }
+ header{
+    text-align: center;
+
+ }
+ .container{
+    height: 200px;
+    background-color: #fff;
+    width: 500px;
+    padding: 20px;
+    position: absolute;
+    border: 1px solid inherit;
+    box-shadow: 1px 3px 3px inherit;
+    border-radius: 5px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+    
+}
+ .container h1{
+    font-size: 1.6rem;
+    margin: 20px;
+}
+header .container button{
+    padding: 10px;
+    background-color: rgb(0, 225, 255);
+    font-size: 1.2rem;
+    border-color: inherit;
+    border-radius: 5px;
+}
+.modal{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: aqua;
+    opacity: .4;
+    transform: translate(-100%);
+    text-align: center;
+    transition: .5s;
+}
+.show-modal{
+    transform: translate(0);
+}
+
+.modal h2{
+    font-size: 1.5rem;
+    position: absolute;
+    top: 40%;
+    left: 36%;
+}
+
+.modal .container button{
+    position: absolute;
+    font-size: 1.5rem;
+    border: none;
+    background: none;
+    color: red;
+    right: 15px;
+}
